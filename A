@@ -1,0 +1,199 @@
+[33mcommit 66f2c9208d49f16f0f8818059b35c16980560221[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/cli[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: rishabh jain <rishabhjain.1632004@gmail.com>
+Date:   Wed Apr 3 16:00:30 2024 +0530
+
+    Cli developed in go
+
+[33mcommit 31dcfc273e1e6d6ae17f94e7350bd7db8a005b23[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Thu Mar 14 11:48:45 2024 +0530
+
+    Resolve Merge Conflicts
+
+[33mcommit cb9f9c10c348c10b4de2aa0570ffd91a7741e42b[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Thu Mar 14 11:44:12 2024 +0530
+
+    Send Decrypted Private Key to User
+
+[33mcommit 769f73b7af5a904db2a31dfc07c19de27dc51dbf[m
+Author: ishugupta <ishugupta0298@gmail.com>
+Date:   Thu Mar 14 11:35:07 2024 +0530
+
+    Add EmailQueue for sendEmail task
+
+[33mcommit f54fb49916404cf375979ffc517df9186d560f52[m
+Author: ishugupta <ishugupta0298@gmail.com>
+Date:   Wed Mar 6 00:12:46 2024 +0530
+
+    Add a util for sending email
+
+[33mcommit 7cebb34c869302330bf44d232acd5b13b6faad0c[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sun Mar 3 03:10:49 2024 +0530
+
+    Add CASCADE for Requests on fk delete
+
+[33mcommit f1513e78c7129c5fea4ae08edeb205516e96a400[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sun Mar 3 02:35:23 2024 +0530
+
+    Delete Server and add hook
+
+[33mcommit 6e7328a88b4bce4d48c9214cc6d67dd477bb03c9[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sun Mar 3 02:07:02 2024 +0530
+
+    Add update server alias hook.
+
+[33mcommit 206a554f039957df36991ebb7d634cae08f6bb7b[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sun Mar 3 01:33:43 2024 +0530
+
+    Add composite unique constraint for ip-port
+
+[33mcommit 485fdc8a86a8ba59ae4f7707419f098622b985ee[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sun Mar 3 01:22:50 2024 +0530
+
+    Refactor constants for server controller
+
+[33mcommit ec0841fcc0208bde4b000e690c7fdf922dffcf70[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sun Mar 3 01:12:09 2024 +0530
+
+    Complete flow of request add, approve and reject
+
+[33mcommit f9c659b438c6a2c1f13f39ed8cf7d58ca8af3642[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sun Mar 3 00:23:14 2024 +0530
+
+    Add approve request hook
+
+[33mcommit 3b8645afc1cab89bc280e961281b0b69dcc4904a[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sat Mar 2 19:52:42 2024 +0530
+
+    Remove keys from git track
+
+[33mcommit a2cfa90df3542beac1d93f01a4aed983a0e3984d[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sat Mar 2 19:39:58 2024 +0530
+
+    Add Create Request Hook, Rename constants
+
+[33mcommit f9a016b673095741e587c75a780028a75e868ac2[m
+Author: ishugupta <ishugupta0298@gmail.com>
+Date:   Sat Mar 2 18:39:53 2024 +0530
+
+    Add a migration to remove password field from Key
+
+[33mcommit 059daccee7a9f60f3a9ab6895c982631dba35da3[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sat Mar 2 17:47:55 2024 +0530
+
+    Add approve API, underlying logic remains
+
+[33mcommit d21ee76471c8e6af6f07ac3262ffb1229b58a200[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sat Mar 2 17:01:40 2024 +0530
+
+    Add view for request create
+
+[33mcommit 22c61751c3f02ec7694c2b270fe0f47eefc57e40[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sat Mar 2 13:08:50 2024 +0530
+
+    Update Scripts, remove pg.sequelize.sync
+
+[33mcommit a49c8c69acbb9e82e8da5e478c4ac18cac66c675[m
+Author: ishugupta <ishugupta0298@gmail.com>
+Date:   Sat Mar 2 12:38:09 2024 +0530
+
+    Add create table migration file for Request table
+
+[33mcommit ed100b5898b590787e9a68bec87cf2518f04b698[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sat Mar 2 12:30:18 2024 +0530
+
+    Add create table migration for Key model
+
+[33mcommit 3272936a0d369e95fa51e0c29415fc03ef50f579[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sat Mar 2 11:59:37 2024 +0530
+
+    Add more scripts, user create migration
+
+[33mcommit 19fec6df6ea89a1fbf3b925e0af08fffc5b3ba77[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Fri Mar 1 01:52:26 2024 +0530
+
+    Add migration and undo scripts
+
+[33mcommit 819d9b60cbb260dfde38f8d40eb7f8807fce97ce[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Fri Mar 1 01:27:28 2024 +0530
+
+    Add Migration for Server
+
+[33mcommit 188218bf410c13753c789d156641b3ed1f460e0d[m
+Author: Paritosh  Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Thu Feb 29 23:40:28 2024 +0530
+
+    Add addUpdate api for a server
+
+[33mcommit 07713016dc948a72aeeb2df433085d1950d878db[m
+Author: ishugupta <ishugupta0298@gmail.com>
+Date:   Sat Feb 17 23:23:04 2024 +0530
+
+    Add create user api
+    
+    - Used res.locals to pass information between middlewares.
+
+[33mcommit 4eebf4f2e844b7004e652b3826afee91ca7a445e[m
+Author: ishugupta <ishugupta0298@gmail.com>
+Date:   Sun Feb 11 22:50:27 2024 +0530
+
+    Add Structure for controllers and routes
+
+[33mcommit 6f02864f70cb6c98aeb235a2023b17278dd4111a[m[33m ([m[1;31morigin/schema-test[m[33m)[m
+Author: Paritosh Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Thu Jan 25 02:09:40 2024 +0530
+
+    Fix Sequelize Error
+
+[33mcommit 23ee0f1eb33e96c413e355f19ef78d6e3fbde135[m
+Author: Paritosh Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Wed Jan 24 23:49:40 2024 +0530
+
+    Debug Sequelize Models
+
+[33mcommit 8e7c5496e2c119c2cc41523a7ecd247824b0e791[m
+Author: Paritosh Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Wed Jan 24 23:30:54 2024 +0530
+
+    Schema definitions for User, Key, Server and Request
+
+[33mcommit bdff3df34564a6715f1a2c489c057cdf284f5e5b[m
+Author: Paritosh Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Wed Jan 24 23:00:01 2024 +0530
+
+    Use sequelize for ORM
+
+[33mcommit e5c777b651786d0188e79484d63a60edfc105c83[m
+Author: ishugupta <ishugupta0298@gmail.com>
+Date:   Wed Jan 24 22:36:12 2024 +0530
+
+    Change database to postgres
+
+[33mcommit d1eb96dd2608f3091705ffa49ca3403cb987a4f9[m
+Author: ishugupta <ishugupta0298@gmail.com>
+Date:   Sat Jan 20 22:06:16 2024 +0530
+
+    Add key schema for storing paths to the public and private keys
+
+[33mcommit c0c62bf8dd5f3e08ee636d1329f32583f3749a5f[m
+Author: Paritosh Kabra <paritosh_k@cs.iitr.ac.in>
+Date:   Sat Jan 20 21:48:58 2024 +0530
+
+    Write Schema for User, Server and Request
